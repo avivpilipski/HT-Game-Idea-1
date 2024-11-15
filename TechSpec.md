@@ -7,7 +7,7 @@ Manages the overall game state, including game progression, score, and game-over
 - `isGameOver: boolean` - Indicates whether the game has ended. (P0)
 - `monkey: Monkey` - Instance of the monkey character. (P0)
 - `vines: List<Vine>` - List of vines that the monkey can grab. (P0)
-- `obstacles: List<Obstacle>` - List of obstacles in the game. (P0)
+- `obstacles: List<Obstacle>` - List of obstacles in the game. (P1)
 - `isPaused: boolean` - Whether the game is paused. (P2)
 - `time: double` - Tracks time passed for various game mechanics such as speed progression and obstacle appearance. (P1)
 
